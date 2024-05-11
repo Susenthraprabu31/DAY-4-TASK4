@@ -1,0 +1,79 @@
+CREATE A RESUME IN JSON FORMAT
+
+
+
+ let myResume={
+    "basics": {
+      "name": "SUSENTHRA PRABU",
+      "email": "susenthraprabu2002@gmail.com",
+      "phone": 123456789,
+      "degree": "B.E",
+      "location": {
+        "address": "34/3A fathima lay out",
+        "postalCode": 600025,
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profiles": [
+        {
+              "github":"https://github.com/Susenthraprabu31T"
+        }
+      ]
+    },
+    
+    "education": [
+      {
+        "institution": "IFET COLLEGE OF ENGINEERING",
+        "department": "EEE",
+        "studyType": "fulltime",
+        "batch start year": 2020,
+        "batch end year": 2014,
+        "gpa": 7.0,
+      }
+    ],
+    "skills": [
+      {
+        "name": "javascript",
+        "level": "beginer",
+        "project": [
+          "EDGE AI BASED SMART CROP GROWTH MONONITORING SYSTEM USING ADPATIVITY"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "BIKE RIDE,",
+      }
+    ]
+  }
+  console.log(myResume);
+
+
+
+
+2.READ ABOUT THE DIFFERENCE BETWEEN THE WINDOW, SCREEN AND DOCUMENT IN JAVASCRIPT
+
+
+1.WINDOW
+
+The window is the first thing that gets loaded into the browser 
+This window object has the majority of the properties like length, inner Width, inner Height, name, if it has been closed, its parents, and more.
+The JavaScript window object sits at the top of the JavaScript Object hierarchy and represents the browser window. 
+
+2.SCREEN
+
+
+Screen is a small information object about physical screen dimensions . It can be used to display screen width, height, colorDepth, pixelDepth etc.
+It is not mandatory to write window prefix with screen object. It can be written without window prefix.
+
+3.DOCUMENT
+
+When an HTML document is loaded into a web browser , it becomes a document object. It is the root node of the HTML document. 
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page’s content, which is the DOM tree.
+ The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. 	
